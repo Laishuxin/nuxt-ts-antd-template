@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .sht-flex-center-col {
+    @apply sht-flex sht-justify-center sht-items-center sht-flex-col;
+  }
+
+  .sht-flex-center-row {
+    @apply sht-flex sht-justify-center sht-items-center;
+  }
+
+  .sht-flex-between-center {
+    @apply sht-flex sht-justify-between sht-items-center;
+  }
+
+  .sht-border-1-primary {
+    @apply sht-border sht-border-solid sht-border-color-primary;
+  }
+
+  .sht-border-1-secondary {
+    @apply sht-border sht-border-solid  sht-border-color-secondary;
+  }
+
+  .sht-border-1-lightgray {
+    @apply sht-border sht-border-solid  sht-border-color-lightgray;
+  }
+
+  .sht-border-t-1-lightgray {
+    @apply sht-border-t-1 sht-border-solid  sht-border-color-lightgray;
+  }
+
+  .sht-border-b-1-lightgray {
+    @apply sht-border-b-1 sht-border-solid  sht-border-color-lightgray;
+  }
+
+  .sht-border-1-tertiary {
+    @apply sht-border sht-border-solid sht-border-color-tertiary;
+  }
+
+  .sht-h1 {
+    @apply sht-text-5xl sht-font-bold  sht-my-3;
+  }
+
+  .sht-h2 {
+    @apply sht-text-3xl sht-font-bold  sht-my-3;
+  }
+
+  .sht-h3 {
+    @apply sht-text-xl sht-font-semibold  sht-my-3;
+  }
+  .sht-h4 {
+    @apply sht-text-base sht-font-semibold  sht-my-3;
+  }
+  .sht-h5 {
+    @apply sht-text-sm sht-font-semibold  sht-my-3;
+  }
+
+  .sht-p {
+    @apply sht-h-5 sht-text-color-lightgray;
+  }
+
+  .sht-mask {
+    @apply sht-absolute sht-top-0 sht-bottom-0 sht-left-0 sht-right-0 sht-z-10;
+  }
+}
